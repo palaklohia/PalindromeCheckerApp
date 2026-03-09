@@ -1,11 +1,19 @@
 public class PalindromeCheckerApp {
 
         public static void main(String[] args) {
+                    String text = "madam";
+                    int length = text.length();
+                    boolean isPalindrome = true;
 
-            System.out.println("Welcome to Palindrome Checker App");
-            System.out.println("Application Name: Palindrome Checker");
-            System.out.println("Version: 1.0");
+                    for (int i = 0; i < length / 2; i++) {
+                        if (text.charAt(i) != text.charAt(length - 1 - i)) {
+                            isPalindrome = false;
+                            break;
+                        }
+                    }
 
-        }
+                    System.out.println("Input text : " + text);
+                    System.out.println("Is it a Palindrome? : " + isPalindrome);
 
-    }
+                }
+            }
