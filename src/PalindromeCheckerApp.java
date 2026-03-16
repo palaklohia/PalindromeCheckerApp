@@ -1,7 +1,7 @@
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-public class DequePalindrome {
+public class PalindromeCheckerApp {
     public static void main(String[] args) {
         String input = "refer";   // input string
 
